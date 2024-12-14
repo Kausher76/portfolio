@@ -12,3 +12,42 @@
 html {
   scroll-behavior: smooth;
 }
+/* Add this to your style.css file */
+
+/* Default Light Mode Styles */
+body {
+    background-color: #ffffff; /* Light background */
+    color: #000000; /* Dark text */
+}
+
+.navbar {
+    background-color: #f8f9fa; /* Light navbar background */
+    color: #000; /* Dark text in navbar */
+}
+
+footer {
+    background-color: #f8f9fa; /* Light footer background */
+    color: #000; /* Dark text in footer */
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Light text */
+}
+
+.navbar.dark-mode {
+    background-color: #1e1e1e; /* Dark navbar background */
+    color: #ffffff; /* Light text in navbar */
+}
+
+footer.dark-mode {
+    background-color: #1e1e1e; /* Dark footer background */
+    color: #ffffff; /* Light text in footer */
+}
+
+/* Adjust card styles */
+.card {
+    background-color: #1e1e1e; /* Dark card background */
+    color: #ffffff; /* Light text in cards */
+}
